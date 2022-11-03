@@ -101,6 +101,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/anderson-ventosilla-7629381b1/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -109,6 +110,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/aNd12326"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -125,6 +127,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1YP72Y6ER4-zLLiLpB9tZi6spC274c6yt/view?usp=sharing"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
