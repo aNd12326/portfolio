@@ -102,6 +102,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
               href="https://www.linkedin.com/in/anderson-ventosilla-7629381b1/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -111,6 +112,7 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
               href="https://github.com/aNd12326"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -126,8 +128,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
+              href="https://drive.google.com/file/d/1l74nbaKp59_LKuukZVLnPDV-zNS6SgQJ/view?usp=sharing"
               target="_blank"
-              href="https://drive.google.com/file/d/19tH8_Sb7jr2ls0-18kqfRkcDpIYGbYcW/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

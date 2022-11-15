@@ -1,6 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/img5.png";
 import realEstate from "../assets/img3.png";
+import thirProyect from "../assets/test5.png";
 
 const Work = () => {
   return (
@@ -32,12 +33,12 @@ const Work = () => {
                 FEETSIES APP
               </span>
               <div className="pt-8 text-center">
-                <a href="https://pfgrupo3.vercel.app/">
+                <a href="https://pfgrupo3.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/PCardozo/pfgrupo3">
+                <a href="https://github.com/PCardozo/pfgrupo3" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -55,12 +56,44 @@ const Work = () => {
                 COUNTRY APP
               </span>
               <div className="pt-8 text-center">
-                <a href="https://pi-country-seven.vercel.app/">
+                <a href="https://pi-country-seven.vercel.app/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/aNd12326/PI-country">
+                <a
+                  href="https://github.com/aNd12326/PI-country"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${thirProyect})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                HEROES APP
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://heroes-app-updated.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/aNd12326/heroes-app-updated"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
